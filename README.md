@@ -1,9 +1,17 @@
 # WinUtils
 A module for Windows utilities
 
-**Installation:**
+>**Installation:**
 
->pip install winutils
+    pip install winutils
+
+>**Examples:**
+
+    import WinUtils as wu
+    wu.Shutdown(wu.SHTDN_REASON_MINOR_OTHER) # Shutdown other error, minor
+    wu.Restart(wu.SHTDN_REASON_MAJOR_SOFTWARE) # Restart Software error, major
+    wu.LogOut(wu.SHTDN_REASON_MINOR_HOTFIX) # Log out user hot fix, minor
+
 
 >**Reference:**
 
