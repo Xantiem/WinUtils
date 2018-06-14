@@ -8,7 +8,7 @@ module = Extension(
 
 setup (
 	name = "WinUtils",
-	version = "1.0",
+	version = "1.1",
         description = "A module to provide simplified system calls on Windows",
         author = "Simon",
         url = "https://github.com/Simon3335/WinUtils",
