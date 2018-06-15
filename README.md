@@ -102,3 +102,6 @@ Additional flags (optional):
 `SHTDN_REASON_FLAG_PLANNED`:The shutdown was planned. The system generates a System State Data (SSD) file. This file contains system state information such as the processes, threads, memory usage, and configuration.If this flag is not present, the shutdown was unplanned.Notification and reporting options are controlled by a set of policies.For example, after logging in, the system displays a dialog box reporting the unplanned shutdown if the policy has been enabled.An SSD file is created only if the SSD policy is enabled on the system
 
  See https://msdn.microsoft.com/en-us/library/aa376885(v=vs.85).aspx 
+ 
+
+ On Pypi: https://pypi.org/project/WinUtils/
